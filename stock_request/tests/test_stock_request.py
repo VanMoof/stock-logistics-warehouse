@@ -108,7 +108,7 @@ class TestStockRequest(common.TransactionCase):
         return self.env['res.users'].with_context(
             {'no_reset_password': True}).create(
             {'name': name,
-             'password': 'demo',
+             'password': 'DemoPassword677889!',
              'login': name,
              'email': '@'.join([name, '@test.com']),
              'groups_id': [(6, 0, group_ids)],
